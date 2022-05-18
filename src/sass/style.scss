@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Museo Sans Cyrl';
+}
+
+@import '_variables';
+@import '_mixins';
+// @import '_media';
+@import '_main';
+@import '_header';
+@import '_button';
