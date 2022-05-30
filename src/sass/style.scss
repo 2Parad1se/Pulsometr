@@ -2,10 +2,17 @@
     box-sizing: border-box;
     font-family: 'Museo Sans Cyrl';
 }
-
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 @import '_variables';
 @import '_mixins';
 // @import '_media';
 @import '_main';
 @import '_header';
 @import '_button';
+@import '_advantage';
+@import '_consultation';
+@import '_forms';
+@import '_slider';

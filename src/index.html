@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- ниже подключение иконочных шрифтов -->
     <script src="https://kit.fontawesome.com/ceb83e06ab.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulsometr</title>
 </head>
@@ -31,7 +33,7 @@
                 </div>
                 
             </div>
-            <div class="main__wrapper col-md-6 offset-md-5">
+            <div class="main__wrapper">
                 <h1 class="main__title">Подбор пульсометра</h1>
                 <h2 class="main__subtitle">с учётом Вашего уровня подготовки</h2>
                 <div class="main__items">
@@ -51,14 +53,79 @@
                             на все вопросы</div>
                     </div>
                 </div>
-                <button class="button">заказать кОНСУЛЬТАЦИЮ</button>
+                <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="main__link">или 
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a> 
                 </div>
             </div>
-
         </div>
     </section>
+    <section class="advantage">
+        <div class="container">
+            <h2 class="advantage__header">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantage__items">
+                <div class="advantage__item">
+                    <img src="img/advantage_cup.png" alt="cup" class="advantage__img">
+                    <div class="advantage__title">Делимся опытом</div>
+                    <div class="advantage__descr">Наши сотрудники всегда готовы поделиться своим опытом, 
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                </div>
+                <div class="advantage__item">
+                    <img src="img/advantage_heart.png" alt="heart" class="advantage__img">
+                    <div class="advantage__title">Заботимся о здоровье</div>
+                    <div class="advantage__descr">Мы работаем для того, 
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                </div>
+                <div class="advantage__item">
+                    <img src="img/advantage_shoe.png" alt="shoe" class="advantage__img">
+                    <div class="advantage__title">Учим бегать</div>
+                    <div class="advantage__descr">Помогаем с обучением 
+                        правильной технике бега! 
+                        Дружим с крупнейшей школой бега в России - 
+                        <a href="#">I LOVE RUNNING.</a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="consultation__header">Получите бесплатную консультацию <br>
+                по подбору пульсометра</h2>
+            <div class="consultation__subheader">Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут</div>
+                <form action="#" class="forms">
+                    <input name="name" required placeholder="Ваше имя" type="text">
+                    <input name="phone" required placeholder="Ваш телефон" type="number">
+                    <input name="email" required placeholder="Ваш E-mail" type="email">
+            
+                    <!-- <input type="submit" value="имя кнопки"> -->
+                    <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
+                </form>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider__wrapper">
+                
+                <div class="slider__img">
+                    <img src="img/slider_one.png" alt="slider">
+                </div>
+                <div class="slider__img">
+                    <img src="img/slider_two.png" alt="slider">
+                </div>
+                <div class="slider__img">
+                    <img src="img/slider_three.png" alt="slider">
+                </div>
+                
+                <!-- <button type="button" class="slick-prev">Previous</button>
+                <button type="button" class="slick-next">Next</button> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
