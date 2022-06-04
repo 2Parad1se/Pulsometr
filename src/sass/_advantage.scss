@@ -1,5 +1,5 @@
 .advantage{
-    height: 470px;
+    min-height: 470px;
     background-color: #f6f6f6;
     padding: 70px 0 95px 0;
     &__header{
@@ -21,6 +21,15 @@
             margin: 0 auto;
         }
     }
+    &__animate{
+        &:hover{
+            // animation-name: heartbeat;
+            // animation-duration: 2s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            animation: heartbeat 2s ease infinite;
+        }
+    }
     &__title{
         font-size: 18px;
         font-weight: 700;
@@ -32,9 +41,13 @@
         font-weight: 300;
         color: #0d0d0d;
         margin-top: 26px;
+        transition: 0.7s all;
         a {
-            text-decoration: underline;
+            text-decoration: none;
             color: #ff0000;
+            &:hover{
+                text-decoration: underline;
+            }
         }
 
     }

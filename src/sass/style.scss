@@ -1,14 +1,19 @@
 * {
     box-sizing: border-box;
     font-family: 'Museo Sans Cyrl';
+    // overflow-x: hidden;
 }
 .container{
-    width: 1140px;
+    width: 950px;
     margin: 0 auto;
+    padding: 0 10px;
+    overflow-x: hidden;
 }
+
 @import '_variables';
+@import '_animate';
 @import '_mixins';
-// @import '_media';
+@import '_fonts';
 @import '_main';
 @import '_header';
 @import '_button';
@@ -16,3 +21,9 @@
 @import '_consultation';
 @import '_forms';
 @import '_slider';
+@import '_catalog';
+@import '_review';
+@import '_footer';
+@import '_modal';
+@import '_pageup';
+@import '_media';
